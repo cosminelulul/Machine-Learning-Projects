@@ -1,0 +1,49 @@
+Wine Quality
+============
+
+Problema:
+---------
+Setul de date este conceput pentru a analiza calitatea vinului pe baza caracteristicilor sale. Scopul principal este modelarea relației dintre proprietățile vinului și scorul de calitate atribuit de experți.
+
+Descrierea setului de date:
+---------------------------
+
+1. fixed_acidity — aciditatea fixă.
+
+2. volatile_acidity — aciditatea volatilă.
+
+3. citric_acid — acid citric.
+
+4. residual_sugar — zahăr rezidual.
+
+5. chlorides — cloruri.
+
+6. free_sulfur_dioxide — dioxid de sulf liber.
+
+7. total_sulfur_dioxide — dioxid de sulf total.
+
+8. density — densitate.
+
+9. pH — pH-ul.
+
+10. sulphates — sulfati.
+
+11. alcohol — procent de alcool.
+
+12. quality — scor de calitate acordat vinului pe o scară de 0‑10.
+
+
+
+--------------------------------
+def clasificare(x):
+    if 0 <= x <= 4:
+        return 0
+    elif 5 <= x <= 7:
+        return 1
+    elif 8 <= x <= 10:
+        return 2
+    else:
+        return 0
+
+df['target'] = df['quality'].apply(clasificare)
+
