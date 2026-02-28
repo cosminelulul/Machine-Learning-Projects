@@ -1,0 +1,44 @@
+==============================================================
+           Descrierea setului de date: Video Games Sales
+==============================================================
+
+Acest set de date conține informații despre vânzările de jocuri video, inclusiv titluri, platforme, ani de lansare, genuri, editori și vânzări regionale.  
+Scopul analizei este de a înțelege factorii care influențează succesul comercial al jocurilor video și de a construi modele predictive pentru estimarea vânzărilor globale.
+
+--------------------------------------------------------------
+1. Coloanele din setul de date
+--------------------------------------------------------------
+
+- Rank: Poziția jocului în clasament.
+ 
+- Name: Numele jocului.
+ 
+- Platform: Platforma pe care a fost lansat jocul.
+ 
+- Year: Anul lansării jocului.
+ 
+- Genre: Genul jocului.
+ 
+- Publisher: Editorul jocului.
+  
+- NA_Sales: Vânzările în America de Nord.
+ 
+- EU_Sales: Vânzările în Europa.
+ 
+- JP_Sales: Vânzările în Japonia.
+ 
+- Other_Sales: Vânzările în alte regiuni.
+ 
+- Global_Sales: Vânzările globale totale.
+
+--------------------------------------------------------------
+2. Problema de regresie
+--------------------------------------------------------------
+
+Se urmărește construirea unui model de regresie liniară care să estimeze Global_Sales pe baza caracteristicilor jocului și ale pieței.
+
+Variabila dependentă (Y):
+    Y = Global_Sales
+
+Variabile independente (predictori X) pot include:
+    X = [Rank, Name, Platform, Year, Genre, Publisher, NA_Sales, EU_Sales, JP_Sales, Other_Sales]

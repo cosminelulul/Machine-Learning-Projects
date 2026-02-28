@@ -1,0 +1,17 @@
+Set de date: Chicago House Price
+
+Descriere:
+Setul de date conține informații despre prețurile caselor din Chicago și caracteristicile acestora. 
+
+Coloane:
+
+* Price – Prețul casei (valoarea țintă pentru predicție)
+* Bedroom – Numărul de dormitoare
+* Space – Suprafața casei
+* Room – Numărul total de camere
+* Lot – Dimensiunea terenului
+* Tax – Valoarea impozitului pe proprietate
+* Bathroom – Numărul de băi
+* Garage – Capacitatea garajului (număr de mașini)
+* Condition – Starea casei
+

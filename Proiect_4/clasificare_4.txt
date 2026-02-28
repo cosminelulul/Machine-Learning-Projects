@@ -1,0 +1,19 @@
+Student Placement Dataset 
+
+Problema:
+Aceasta este o problemă de clasificare binară, unde scopul este să prezicem dacă un student a fost plasat într-un job (Placement = Placed) sau nu (Placement = Not Placed) pe baza caracteristicilor academice, scorurilor și experienței anterioare.
+
+Coloane și descriere:
+
+1. College_ID - identificator unic al studentului
+2. IQ - scorul IQ al studentului
+3. Prev_Sem_Result - rezultatul semestrului anterior (numeric, float)
+4. CGPA - media generală acumulată
+5. Academic_Performance - scor numeric al performanței academice
+6. Internship_Experience - experiență de internship (Yes/No)
+7. Extra_Curricular_Score - scor pentru activități extrașcolare
+8. Communication_Skills - scor pentru abilități de comunicare
+9. Projects_Completed - numărul de proiecte finalizate
+10. Placement - coloana țintă (Placed/Not Placed)
+
+

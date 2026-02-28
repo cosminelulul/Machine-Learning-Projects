@@ -1,0 +1,18 @@
+Titlu: Hospital Appointments Dataset
+Descriere: Informații despre pacienți și programările lor la spital, inclusiv date demografice, afecțiuni medicale și prezența la consultații.
+
+Coloane:
+- PatientId: Identificator unic al pacientului
+- AppointmentID: Identificator unic al programării
+- Gender: Genul pacientului (Male/Female)
+- ScheduledDay: Data la care a fost programată consultația
+- AppointmentDay: Data efectivă a programării
+- Age: Vârsta pacientului
+- Neighbourhood: Cartierul/regiunea pacientului
+- Scholarship: Dacă pacientul beneficiază de program social (Yes/No)
+- Hipertension: Indică dacă pacientul are hipertensiune (0 = Nu, 1 = Da)
+- Diabetes: Indică dacă pacientul are diabet (0 = Nu, 1 = Da)
+- Alcoholism: Indică dacă pacientul are probleme cu alcoolul (0 = Nu, 1 = Da)
+- Handcap: Indică dacă pacientul are handicap (0 = Nu, 1 = Da)
+- SMS_received: Dacă pacientul a primit SMS de reamintire (0 = Nu, 1 = Da)
+- No-show: Dacă pacientul nu s-a prezentat la programare (Yes/No)
